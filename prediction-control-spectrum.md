@@ -53,7 +53,7 @@ This is a **control loop for managing your position** on the prediction-control 
 ### The Spectrum
 
 ```
-Prediction-heavy ←――――――――――→ Control-heavy
+Prediction-heavy <----------> Control-heavy
 (Model-driven)              (Feedback-driven)
 ```
 
@@ -117,8 +117,8 @@ Prediction-heavy ←――――――――――→ Control-heavy
 
 **What's the natural feedback cycle time of your domain, and how does it compare to your decision-making cycle?**
 
-- If feedback takes months but you need to decide now → **prediction-heavy**
-- If feedback is instant but you're planning quarters ahead → **control-heavy**
+- If feedback takes months but you need to decide now -> **prediction-heavy**
+- If feedback is instant but you're planning quarters ahead -> **control-heavy**
 
 **Corollary**: Match your planning horizon to your feedback availability, or work to collapse feedback cycles.
 
@@ -186,7 +186,7 @@ Prediction-heavy ←――――――――――→ Control-heavy
 
 ### The Innovation Lifecycle Spectrum
 
-**Early Stage: Idea → MVP**
+**Early Stage: Idea -> MVP**
 
 **Optimal position**: Control-heavy
 
@@ -211,7 +211,7 @@ Prediction-heavy ←――――――――――→ Control-heavy
 
 ---
 
-**Mid Stage: MVP → Product-Market Fit**
+**Mid Stage: MVP -> Product-Market Fit**
 
 **Optimal position**: Balanced, leaning control
 
