@@ -1,10 +1,12 @@
 # haic-lab
 
-Frameworks for systematic Human-AI Collaboration (HAIC) in complex domains. Each model is battle-tested, AI-native, and optimized for both human thinking and AI reasoning. Shared as my current best understanding — strong enough to use, incomplete enough to evolve.
+Frameworks for systematic Human-AI Collaboration (HAIC) in complex domains. Each model is battle-tested, AI-native, and optimized for both human thinking and AI reasoning. Shared as my current best understanding - strong enough to use, incomplete enough to evolve.
 
 ## What's Here
 
 **[Prediction-Control Spectrum](prediction-control-spectrum.md)**: A meta-control loop for balancing model-driven planning vs. feedback-driven iteration. Helps you locate where you are between prediction and control modes, and adjust based on context. Applications to software engineering and innovation.
+
+**[Expedition Protocol](expedition-protocol/)**: Context management for long-running human-AI collaboration under uncertainty. Provides structure through four living documents (state, decisions, sessions, guide) and disciplined context budgeting. Solves context loss, drift, and decision archaeology in multi-session AI work.
 
 More frameworks coming as they're ready.
 
@@ -43,7 +45,7 @@ Every framework here has been:
 - Tested in real practice (my work across software, investing, photography, AI)
 - Refined based on actual use
 
-This is not AI slop. Each piece represents genuine intellectual work—ideas wrestled with, tested, and distilled through personal use.
+This is not AI slop. Each piece represents genuine intellectual work - ideas wrestled with, tested, and distilled through personal use.
 
 **AI's role**: Exploring concept space, testing consistency, refining language. 
 **Human's role**: Problem identification, core insights, judgment, curation.
