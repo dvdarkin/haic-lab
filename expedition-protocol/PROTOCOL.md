@@ -177,12 +177,6 @@ AI tools and plugins often assume folder conventions (`docs/plans/`, `.cursor/`,
 
 ## What This Protocol Doesn't Solve
 
-**Failure classes outside scope**:
-
-- **Source ambiguity**: Multiple data sources, unclear hierarchy -> needs source verification protocol
-- **Constraint amnesia**: AI repeats corrected mistakes -> needs constraint persistence protocol
-- **Premature optimization**: Jumping to solutions before understanding -> needs problem framing protocol
-
 **Infrastructure requirements**:
 
 - Requires file system or document storage AI can reference
@@ -196,6 +190,9 @@ This protocol provides structure, not magic. You still need to:
 - Actually write session files
 - Actually log decisions
 - Actually respect context budget
+
+The first 3 issues can be resovled by giving explicit command to the AI agent inside the current session, after a major finding, course correction or decision: "Update expedition log".
+The last one is an existing issue that may or may not affect your use case. 
 
 ---
 
@@ -220,18 +217,6 @@ These may emerge through use. The metaphor provides vocabulary for discussing th
 3. Create initial state document
 4. Point your AI at the guide
 5. Start your expedition
-
----
-
-## Further Reading
-
-**Related protocols** (if using systematic HAIC):
-- Source Hierarchy Protocol (for data source ambiguity)
-- Constraint Persistence Protocol (for recurring corrections)
-- Problem Framing Protocol (for premature optimization)
-
-**The broader frame**:
-This protocol addresses CLASS-006 (Context Loss) in a systematic failure taxonomy for human-AI collaboration. Context loss is one of several failure modes; systematic collaboration benefits from addressing multiple failure classes.
 
 ---
 
