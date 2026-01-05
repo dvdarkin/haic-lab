@@ -4,6 +4,10 @@ Frameworks for systematic Human-AI Collaboration (HAIC) in complex domains. Each
 
 ## What's Here
 
+**[Source Hierarchy Protocol](source-hierarchy-protocol.md)**: Trust structure for handling multiple information sources in AI collaboration. Establishes explicit precedence (user documents > user statements > retrieved content > training knowledge) to prevent silent contradictions and unmarked mixing. Works for both interactive conversation and reviewing existing documents.
+
+**[Claim Verification Protocol](claim-verification-protocol.md)**: Calibrating AI confidence to reality by classifying claims by hallucination risk and auto-verifying high-risk categories. Addresses fabricated current events, wrong specifics, and behavioral patterns (sycophantic pivots, serial claims). Works for both interactive conversation and reviewing existing documents.
+
 **[Prediction-Control Spectrum](prediction-control-spectrum.md)**: A meta-control loop for balancing model-driven planning vs. feedback-driven iteration. Helps you locate where you are between prediction and control modes, and adjust based on context. Applications to software engineering and innovation.
 
 **[Expedition Protocol](expedition-protocol/)**: Context management for long-running human-AI collaboration under uncertainty. Provides structure through four living documents (state, decisions, sessions, guide) and disciplined context budgeting. Solves context loss, drift, and decision archaeology in multi-session AI work.
